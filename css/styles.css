@@ -14,19 +14,20 @@
 }
 .box:nth-child(1){
     background-color: lightcoral;
-    margin-left: 43px;
+    position: absolute;
+    left: 123px;
     top: 50px;
 }
 .box:nth-child(2){
     background-color: rgb(103, 78, 245);
-    margin-left: 43px;
     top: 100px;
-    left: -70px;
+    left: 170px;
+    position: absolute;
 }
 .box:nth-child(3){
     background-color:lightgreen ;
-    margin-left: 43px;
     top: 160px;
-    left:-140px; 
+    left:240px; 
     z-index: -1;
+    position: absolute;
 }
